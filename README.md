@@ -60,7 +60,6 @@ Nexora.Finance/
    │  └─ FileService.cs
    └─ DataStore/                 # banco e arquivos gerados
 ```
---
 
 ## 🛠️ Tecnologias Utilizadas
 
