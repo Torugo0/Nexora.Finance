@@ -27,6 +27,16 @@ Aqui, focamos apenas na **Central de Controle Financeiro**, com as seguintes met
 
 ---
 
+## 📐 Diagramas do Projeto
+
+### Arquitetura em Camadas
+![Arquitetura](diagrama_arquitetura.png)
+
+### Diagrama de Classes
+![Classes](diagrama_classes.png)
+
+---
+
 ## ⚙️ Funcionalidades Implementadas
 
 ### 1. Gerenciamento de Transações
