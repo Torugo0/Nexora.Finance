@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Finance.CLI", "Nexora.Finance.CLI\Nexora.Finance.CLI.csproj", "{89D7479D-5422-4C79-8D7C-E4F1CCD9253F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexora.Finance.API", "Nexora.Finance.API\Nexora.Finance.API.csproj", "{858D6251-4B2B-AE81-D84F-188126F26833}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{89D7479D-5422-4C79-8D7C-E4F1CCD9253F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89D7479D-5422-4C79-8D7C-E4F1CCD9253F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89D7479D-5422-4C79-8D7C-E4F1CCD9253F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858D6251-4B2B-AE81-D84F-188126F26833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858D6251-4B2B-AE81-D84F-188126F26833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858D6251-4B2B-AE81-D84F-188126F26833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858D6251-4B2B-AE81-D84F-188126F26833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
