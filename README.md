@@ -41,10 +41,11 @@ Nexora.Finance/
    └─ Data/
       └─ TransactionDbContext.cs
 ```
+### Arquitetura em Camadas
+![Arquitetura](diagrama_arquitetura.png)
 
-### Diagramas
-- Arquitetura: `diagrama_arquitetura.png`  
-- Classes: `diagrama_classes.png`
+### Diagrama de Classes
+![Classes](diagrama_classes.png)
 
 ---
 
