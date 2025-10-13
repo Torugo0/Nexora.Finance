@@ -133,13 +133,6 @@ Transaction {
 
 ---
 
-## ☁️ Publicação (resumo)
-- **Render**: create *Web Service* → runtime .NET → comando `dotnet Nexora.Finance.API.dll`.  
-- **Azure App Service**: `dotnet publish -c Release` e publicar via VS/GitHub Actions.  
-- **Railway/Fly.io**: mesma ideia; pode usar Docker opcionalmente.
-
----
-
 ## 🧪 Dicas de teste rápido
 
 1. **Criar** no Swagger:
@@ -158,17 +151,6 @@ Transaction {
 
 ---
 
-## ✅ Requisitos acadêmicos cobertos
-
-- **ASP.NET Core Web API + EF Core com CRUD completo** — **OK**  
-- **Pesquisas com LINQ** (summary/search/stats) — **OK**  
-- **Endpoints integrando APIs externas** (câmbio com fallback + ViaCEP) — **OK**  
-- **Documentação** (Swagger) — **OK**  
-- **Arquitetura em diagramas** — **OK** (arquivos `.png` na raiz)  
-- **Publicação em Cloud** — pronto para deploy (guia acima)
-
----
-
 ## 👨‍💻 Autores
 Projeto desenvolvido pelos integrantes da Nexora (FIAP, 2025):  
-Gabriel Machado Carrara Pimentel — RM99880 · Lourenzo Ramos — RM99951 · Letícia Resina — RM98069 · **Vítor Hugo Rodrigues — RM97758**.
+Gabriel Machado Carrara Pimentel — RM99880 · Lourenzo Ramos — RM99951 · Letícia Resina — RM98069 · Vitor Hugo Rodrigues — RM97758.
