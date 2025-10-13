@@ -1,11 +1,14 @@
 ﻿using Nexora.Finance.CLI.Data;
 using Nexora.Finance.CLI.Services;
 
-Directory.CreateDirectory("DataStore");
-Directory.CreateDirectory("DataStore/exports");
-Directory.CreateDirectory("DataStore/imports");
+var baseDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Nexora");
+Directory.CreateDirectory(baseDir);
+Directory.CreateDirectory(Path.Combine(baseDir, "exports"));
+Directory.CreateDirectory(Path.Combine(baseDir, "imports"));
 
-var connectionString = "Data Source=DataStore/nexora.db";
+var dbPath = Path.Combine(baseDir, "nexora.db");
+var connectionString = $"Data Source={dbPath}";
+
 var factory = new SqliteConnectionFactory(connectionString);
 
 DbInitializer.EnsureCreated(factory);
