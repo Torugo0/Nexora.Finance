@@ -114,7 +114,7 @@ Transaction {
 - `GET /api/transactions/stats/by-month`  
   Agrupa `{ ano, mês, tipo, total, count }`.
 
-### Integrações externas (20%)
+### Integrações externas
 - `GET  /api/external/exchange?base=BRL&symbols=USD`  
   Cotação com **fallback** automático (**exchangerate.host** → **frankfurter.app**).  
   Retorna `{ rate, provider, raw, fetchedAt }`.
